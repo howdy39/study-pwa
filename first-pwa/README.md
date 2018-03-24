@@ -17,6 +17,7 @@ manifest.jsonは キャッシュされるので `?v=1` とかでキャッシュ�
   "display": "standalone", # ブラウザ上ではなく表示
   "orientation": "any" # 向きを指定(standalone指定時に使用)
   "background_color": "#f00" # スプラッシュ画面の背景色
+  "icons": ... # アプリショートカットアイコンの画像（スプラッシュ画面にも表示される）
 }
 
 ```

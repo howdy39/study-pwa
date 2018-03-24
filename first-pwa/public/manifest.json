@@ -4,5 +4,12 @@
   "start_url": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#f00"
+  "background_color": "#f00",
+  "icons":[
+    {
+      "src":"images/app-icon-144.jpeg",
+      "sizes":"144x144",
+      "type":"image/jpeg"
+    }
+  ]
 }
