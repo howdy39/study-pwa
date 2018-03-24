@@ -1,7 +1,8 @@
 ## manifest.jsonを読み込む
+manifest.jsonは キャッシュされるので `?v=1` とかでキャッシュクリアする。
 
 ```
-<link rel="manifest" href="./manifest.json">
+<link rel="manifest" href="./manifest.json?v=1">
 ```
 
 ## manifest.jsonを作成する
