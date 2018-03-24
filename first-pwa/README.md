@@ -16,6 +16,7 @@ manifest.jsonは キャッシュされるので `?v=1` とかでキャッシュ�
   "start_url": "./" # アプリ起動時のURLを指定(指定しないと、URLがそのまま設定されてしまう）
   "display": "standalone", # ブラウザ上ではなく表示
   "orientation": "any" # 向きを指定(standalone指定時に使用)
+  "background_color": "#f00" # スプラッシュ画面の背景色
 }
 
 ```

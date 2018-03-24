@@ -3,5 +3,6 @@
   "short_name": "PWA",
   "start_url": "./",
   "display": "standalone",
-  "orientation": "any"
+  "orientation": "any",
+  "background_color": "#f00"
 }
