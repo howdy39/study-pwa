@@ -51,7 +51,7 @@
     var key = selected.value;
     var label = selected.textContent;
     if (!app.selectedCities) {
-        app.selectedCities = [];
+      app.selectedCities = [];
     }
     app.getForecast(key, label);
     app.selectedCities.push({key: key, label: label});
@@ -167,7 +167,7 @@
   app.getForecast = function(key, label) {
     var statement = 'select * from weather.forecast where woeid=' + key;
     var url = 'https://query.yahooapis.com/v1/public/yql?format=json&q=' +
-        statement;
+      statement;
     // TODO add cache logic here
 
     // Fetch the latest data.
@@ -202,8 +202,8 @@
   // TODO add saveSelectedCities function here
   // Save list of cities to localStorage.
   app.saveSelectedCities = function() {
-      var selectedCities = JSON.stringify(app.selectedCities);
-      localStorage.selectedCities = selectedCities;
+    var selectedCities = JSON.stringify(app.selectedCities);
+    localStorage.selectedCities = selectedCities;
   };
 
   app.getIconClass = function(weatherCode) {
@@ -313,7 +313,6 @@
   // TODO uncomment line below to test app with fake data
   // app.updateForecastCard(initialWeatherForecast);
 
-  // TODO add startup code here
   /************************************************************************
    *
    * Code required to start the app
@@ -325,6 +324,7 @@
    *   SimpleDB (https://gist.github.com/inexorabletash/c8069c042b734519680c)
    ************************************************************************/
 
+  // TODO add startup code here
   app.selectedCities = localStorage.selectedCities;
   if (app.selectedCities) {
     app.selectedCities = JSON.parse(app.selectedCities);
