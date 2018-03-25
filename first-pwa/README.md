@@ -1,3 +1,7 @@
+## 参考サイト
+[PWA(Progressive Web Apps)と戯れてみる - Qiita](https://qiita.com/j16a/items/d3f7f7c3bb283bb20f23#indexhtml)
+ここのをベースにキャシュ削除とかをちょっと追加した。
+
 ## manifest.jsonを読み込む
 manifest.jsonは キャッシュされるので `?v=1` とかでキャッシュクリアする。
 
