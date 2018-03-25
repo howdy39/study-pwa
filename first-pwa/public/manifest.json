@@ -12,5 +12,6 @@
       "type":"image/png"
     }
   ],
-  "theme_color": "#0F0"
+  "theme_color": "#0F0",
+  "gcm_sender_id": "103953800507"
 }

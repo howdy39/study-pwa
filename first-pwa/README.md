@@ -19,6 +19,7 @@ manifest.jsonは キャッシュされるので `?v=1` とかでキャッシュ�
   "background_color": "#f00" # スプラッシュ画面の背景色(standalone指定時に使用)
   "icons": ... # アプリショートカットアイコンの画像（スプラッシュ画面にも表示される）
   "theme_color": "#0F0" # ステータスバーを指定(standalone指定時に使用)
+  "gcm_sender_id": "103953800507" # Firebase用の固定値
 }
 
 ```
